@@ -1,0 +1,23 @@
+package eg2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductMain {
+	public static void main(String[] args) {
+		List<Product> plist= new ArrayList<>();
+		plist.add(new Product(1,"dwd",1200.22,4.3f,6));
+		plist.add(new Product(2,"sde",1100.22,1.3f,12));
+		plist.add(new Product(3,"yhgh",100.22,4.3f,34));
+		plist.add(new Product(4,"ncg",15600.22,6.3f,656));
+		plist.add(new Product(5,"jhhf",1100.22,9.3f,23));
+  
+  printproStatement(plist);
+	}
+	public static void printproStatement(List<Product> plist) {
+		for(Product p:plist) {
+			System.out.println(p);
+		}
+	}
+
+}

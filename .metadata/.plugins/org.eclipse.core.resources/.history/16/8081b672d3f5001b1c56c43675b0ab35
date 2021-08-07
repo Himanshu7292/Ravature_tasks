@@ -1,0 +1,26 @@
+package challenges;
+
+import java.util.Arrays;
+
+public class fsfsf {
+	public static void main(String[] args) {
+//		int[] b= {20,-1,70,-1,168};
+//		System.out.println(Missing(2, 5, b));
+		
+		
+	}
+//	public static String Missing(int x,int n,int[] b) {
+//		int[] r=new int[n];
+//		for (int i = 0; i < n; i++) {
+//			if(b[i]== -1) {
+//				r[i]= ((x+i+1)*(x+i+2)*(x+i+3))/3;
+//			}
+//			else {
+//				r[i]=b[i];
+//			}
+//		}
+//		return Arrays.toString(r);
+//	}
+
+
+}

@@ -1,0 +1,27 @@
+package challenges;
+
+public class Challenge {
+
+	public static void main(String[] args) {
+  String s = "hello how arejavaaaa you doing ";
+  System.out.println(HighestString(s));
+	}
+	public static String HighestString(String t) {
+		
+		String highest = "";
+		String[] a = t.split(" ");
+		
+		for (int i = 1; i < a.length; i++) {
+			if(a[i-1].length()>a[i].length()) {
+				highest= a[i-1];
+			}
+			else  {
+				highest = a[i];
+			}
+		
+			}
+			
+		return highest;
+	}
+
+}

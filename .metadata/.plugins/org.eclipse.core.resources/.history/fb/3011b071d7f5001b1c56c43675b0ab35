@@ -1,0 +1,6 @@
+package eg2;
+
+public class ProductNameComparator implements Comparator<Product> {
+	public int compare
+
+}

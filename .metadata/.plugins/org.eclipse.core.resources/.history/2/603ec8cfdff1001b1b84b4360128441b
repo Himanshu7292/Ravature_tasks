@@ -1,0 +1,17 @@
+package oops_challenge;
+
+public class LengthBreadth {
+	
+}
+	public int square() {
+
+}
+	public int rectangle() {
+		
+	}
+	public int trapezium() {
+		
+	}
+	
+	}
+	

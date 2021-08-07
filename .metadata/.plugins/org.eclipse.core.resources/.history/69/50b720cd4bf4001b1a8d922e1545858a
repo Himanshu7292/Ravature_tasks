@@ -1,0 +1,30 @@
+package challenges;
+
+public class Challenge {
+
+	public static void main(String[] args) {
+  String s = "hello how arery you doing";
+  System.out.println(s.toUpperCase());
+  System.out.println(HighestString(s));
+	}
+	public static String HighestString(String t) {
+		
+		
+		String[] a = t.split(" ");
+		String highest = a[0];
+		
+		for (int i = 0; i < a.length; i++) {
+			if(highest.length()<a[i].length()) {
+				highest= a[i];
+			}
+			else {
+				continue;
+			}
+		
+			}
+			
+		
+		return highest;
+	}
+
+}

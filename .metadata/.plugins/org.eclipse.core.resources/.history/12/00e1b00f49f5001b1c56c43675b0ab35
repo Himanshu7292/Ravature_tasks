@@ -1,0 +1,5 @@
+package custom_exception_eg;
+
+public class InvalidEmailException {
+
+}

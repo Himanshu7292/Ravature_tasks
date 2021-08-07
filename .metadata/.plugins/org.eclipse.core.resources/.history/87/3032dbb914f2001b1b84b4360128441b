@@ -1,0 +1,22 @@
+package challenges;
+
+public class Challenge5 {
+
+	public static void main(String[] args) {
+		String b ="welcome to java";
+  System.out.println(LastUpper(b));
+	}
+	public static String LastUpper(String s){
+		String a[] = s.split(" ");
+		StringBuilder sb= new StringBuilder();
+		for (int i = 0 ; i <a.length ; i++) {
+		int n=	a[i].length()-1;
+		sb.append(Character.toUpperCase((a[i].charAt(n)))).append("@");
+			//sb.append(a[i].substring(0,n)).append(Character.toUpperCase(a[i].charAt(n))).append(" ");
+			
+		}
+	return sb.toString();	
+	}
+	
+
+}

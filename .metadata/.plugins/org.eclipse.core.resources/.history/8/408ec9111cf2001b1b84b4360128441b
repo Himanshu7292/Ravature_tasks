@@ -1,0 +1,22 @@
+package eg1;
+
+public class RegexDemo2 {
+
+	public static void main(String[] args) {
+		
+		String mobileNum="Himanshu123@gmail";
+		
+		if(mobileNum.matches("[A-Z]{1}[a-z]{7}[0-9]{3}\\@gmail")) {
+			System.out.println("Valid Number");
+			
+		}
+			else if(mobileNum.matches("[A-Z]{1}[a-z]{7}[0-9]{3}\\@yahoo")) {
+				System.out.println("valid number");
+			}
+		else {
+			System.out.println("Invalid Number");
+		}
+
+	}
+
+}
